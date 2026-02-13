@@ -1,5 +1,5 @@
 #Base Image
-FROM python:3.8
+FROM python:3.14.3
 
 #Getting System Ready to install dependencies
 RUN apt-get clean \
